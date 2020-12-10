@@ -10,6 +10,8 @@ Because the nature of each stock market company is different, it is not possible
 
 The whole process consistes of two main phases which are: **data preparation** and **modeling**. During the first phase a set of parameters describing a company will be created in a form of timeseries dataset. Those parameters will be callculated from the available coefficients described in the next section. In the next phase, which is modeling, the similar groups of vectors (**clusters**) will be created, basing on dataset features in particular timestamp. Then, each cluster will be marked as **'buy'**, **'sell'** or **'hold'**. The labels will be assigned to the clusters according to their mean return i.e. the amount of money earned during the training data analysis. In high average return cases the 'buy' label will be assigned, in periods with 'low' revenue the 'low' label will be assigned and in period in which the return wasn't higher or lower than a certain treshold the 'hold' label will be assigned. The example figure shows the example of the time series for the daily closing shares’ prices.
 
+<img src='images/buy_sell.png'>
+
 On the next picture we can the corresponding 
 
 Opis problemu, Dlaczego unsupervised moze mieć sens
