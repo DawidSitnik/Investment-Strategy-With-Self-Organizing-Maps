@@ -15,7 +15,10 @@ The whole process consistes of two main phases which are: **data preparation** a
 According to the tresholds due to which we set clusters labels, a strategy can be more or less agresive. Tresholds don't need to be symetric as they reflect the
 character of the investor and his inclination towards taking the risk.
 
-The whole 
+### Data
+To make our model working correctly we need to operate on the stocks which has 
+
+
 
 
 
