@@ -30,15 +30,11 @@ The example companies which has been chosen comes from stock exchanges like: HKG
 <img src='images/PGS.png' title='WSE: PSW'>
 
 
+### Self-Organizing Maps
 
 
 
 
 
-
-Opis problemu, Dlaczego unsupervised moze mieć sens
-Opis systemu
-Jakie spółki wybraliśmy i dlaczego
-Czym są mapy kohonena
-Jakie zmienne tworzymy
+### Dataset Attributes
 
