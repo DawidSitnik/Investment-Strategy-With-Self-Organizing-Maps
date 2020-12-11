@@ -16,7 +16,11 @@ According to the tresholds due to which we set clusters labels, a strategy can b
 character of the investor and his inclination towards taking the risk.
 
 ### Data
-To make our model working correctly we need to operate on the stocks which has 
+To make our model working correctly we need to operate on the stocks which has significant fluctuations in their prices. In an opposite case, it is highly probable that we would mark every moment in the timeseries as 'hold'.
+
+The example companies which has been chosen comes from stock exchanges like: HKG (Hong-Kong), NASDAQ (USA) and WSE (Polish). The market summary of each company can be seen at the pictures above:
+
+
 
 
 
