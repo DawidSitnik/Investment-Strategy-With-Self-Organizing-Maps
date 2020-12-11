@@ -20,9 +20,12 @@ To make our model working correctly we need to operate on the stocks which has s
 
 The example companies which has been chosen comes from stock exchanges like: HKG (Hong-Kong), NASDAQ (USA) and WSE (Polish). The market summary of each company can be seen at the pictures above:
 
+#### NASDAQ: BIDU
 <img src='images/baidu.png' title='NASDAQ: BIDU'>
+#### HKG: 1234
 <img src='images/ltd.png' title='HKG: 1234'>
-<img src='images/PSW.png' title='WSE: PSW'>
+#### WSE: PSW
+<img src='images/PGS.png' title='WSE: PSW'>
 
 
 
