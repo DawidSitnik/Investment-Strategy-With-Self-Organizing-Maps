@@ -88,8 +88,8 @@ class SOM(object):
         # update neuron weights
         self.map -= h * self.alphas[self.epoch] * (self.map - vector)
 
-        print("Epoch %i;    Neuron [%i, %i];    \tSigma: %.4f;    alpha: %.4f" %
-              (self.epoch, w[0], w[1], self.sigmas[self.epoch], self.alphas[self.epoch]))
+        # print("Epoch %i;    Neuron [%i, %i];    \tSigma: %.4f;    alpha: %.4f" %
+        #       (self.epoch, w[0], w[1], self.sigmas[self.epoch], self.alphas[self.epoch]))
         self.epoch = self.epoch + 1
 
     def fit(self, data, epochs=0, save_e=False, interval=1000, decay='hill'):
