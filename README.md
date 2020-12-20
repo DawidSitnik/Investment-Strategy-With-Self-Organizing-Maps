@@ -40,3 +40,30 @@ The picture describes a self-organizing map showing U.S. Congress voting pattern
 
 
 ### Dataset Attributes
+
+Input data is calculated using extract_features' method read_and_extract_features. 
+The method accepts the name of file received from the stock market, and
+writes output to the file named as the second parameter.
+The output of the method contains following fields:
+
+* Index
+* Date
+* Close/Last - the closing price
+* High - the highest price during that day
+* Low - the lowest price during the day
+* f1 - logarithmic RoR (natural algorithm) of ratio between current and previous day
+* f2 - logarithmic RoR (natural algorithm) of ratio previous day and 2 days before
+* f3 - logarithmic RoR (natural algorithm) of ratio of price from 2 and 3 days before
+* f4 - logarithmic RoR (natural algorithm) of ratio of price from 3 and 4 days before
+* f5 - RoR of ratio of closing price from current day and 2 days before
+* f6 - RoR of ratio of closing price from 1 and 3 days before
+* f7 - gradient of 5-day price trend (starting from current day)
+* f8 - gradient of 5-day price trend (starting from 5 days ago)
+* f9 - gradient of 10-day price trend (starting from current day)
+* f10 - difference between first and second feature
+* f11 - difference between first and third feature
+* f12 - Relative Strength Index (RSI)
+* f13 - Moving Average Convergence/Divergence (MACD) for 12 and 26 days
+* f14 - difference between current day's closing price and Moving Average for 12 days
+* f15 - 14-day Rate of Change (RoC)
+* f16 - Commodity Channel Index (CCI) for last 20 days

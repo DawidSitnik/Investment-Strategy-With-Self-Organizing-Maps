@@ -7,7 +7,7 @@ from matplotlib.pyplot import figure
 
 def read_csv(filename):
     df = pd.read_csv(f'../data/extracted_features/{filename}')
-    df = df.drop(columns=['Unnamed: 0', 'f12']).dropna()
+    df = df.drop(columns=['Unnamed: 0']).dropna()
     df = df.rename(columns={' Close/Last':'Price'})
     return df
 
